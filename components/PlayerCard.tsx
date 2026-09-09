@@ -50,7 +50,7 @@ export function PlayerCard({ player }: PlayerCardProps) {
   return (
     <div className="bg-zinc-900/90 border border-zinc-800 rounded-xl overflow-hidden shadow-xl">
       {/* Top Banner Accent */}
-      <div className="h-24 bg-gradient-to-r from-orange-600 via-amber-600 to-red-700 relative p-4 flex justify-between items-start">
+      <div className="relative flex min-h-28 items-start justify-between border-b border-zinc-800 bg-zinc-950 p-4 before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-orange-500">
         <div className="flex items-center gap-2 flex-wrap">
           <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-black/40 backdrop-blur-md text-white text-xs font-semibold border border-white/20">
             <Globe className="w-3.5 h-3.5 text-amber-300" />
