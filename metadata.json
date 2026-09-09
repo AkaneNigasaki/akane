@@ -1,0 +1,6 @@
+{
+  "name": "Free Fire Player Info & API Inspector",
+  "description": "Récupération en temps réel des profils et statistiques de joueurs Free Fire, avec testeur d'API en direct et liens officiels vérifiés non dépréciés.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
